@@ -20,7 +20,7 @@ const Nav = ({openNav}: NavProps) => {
           <Link href="/" className="flex items-center space-x-2">
             <Building2 className="sm:h-8 sm:w-8 w-6 h-6 text-blue-600" />
             <span className="sm:text-xl text-lg font-bold text-gray-900">
-              Bank Review
+              Bank Review System
             </span>
           </Link>
 
@@ -50,7 +50,7 @@ const Nav = ({openNav}: NavProps) => {
             "
             >
               <HelpCircle className="h-3 w-3 lg:h-4 lg:w-4"/>
-                  <span className="text-xs lg:text-sm whitespace-nowrap font-medium">want to know</span>
+                  <span className="text-xs lg:text-sm whitespace-nowrap font-medium">you want to know</span>
             </Link>
         <Button size={"lg"} className="cursor-pointer">Signup</Button>
         <MenuIcon 
